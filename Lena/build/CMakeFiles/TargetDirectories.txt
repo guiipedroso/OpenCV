@@ -1,0 +1,3 @@
+/home/pedroso/Documentos/teste/build/CMakeFiles/DisplayImage.dir
+/home/pedroso/Documentos/teste/build/CMakeFiles/edit_cache.dir
+/home/pedroso/Documentos/teste/build/CMakeFiles/rebuild_cache.dir
