@@ -1,0 +1,3 @@
+/home/pedroso/Documentos/Web/build/CMakeFiles/Web.dir
+/home/pedroso/Documentos/Web/build/CMakeFiles/edit_cache.dir
+/home/pedroso/Documentos/Web/build/CMakeFiles/rebuild_cache.dir
