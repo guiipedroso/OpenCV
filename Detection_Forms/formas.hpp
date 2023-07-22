@@ -11,11 +11,12 @@ class Formas{
     Formas();
     ~Formas(); //destrutor
 
-    cv::String path;
+    cv::String path, nome_da_forma;
     cv::Mat img, img_dilatada, img_canny, nucleo;
 
-    std::vector<std::vector<cv::Point>> contornos;
+    std::vector<std::vector<cv::Point>> contornos, lados;
     std::vector<cv::Vec4i> hierarquia;
+    std::vector<cv::Rect> retangulo;
 
     void desenhar_nas_formas();
     float perimetro;
