@@ -12,7 +12,7 @@ main( int argc, char ** argv )
       saturacao_min = 190, saturacao_max = 255,
       brilho_min = 21, brilho_max = 255;
 
-  std::string path = "./tux.jpg";
+  std::string path = "./alien.jpg";
 
   cv::Mat img = cv::imread( path ), img_hsv, img_mask;
 
