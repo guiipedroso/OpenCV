@@ -21,11 +21,11 @@ main( int argv, char **argc )
 
 //  cv::erode( img_canny, img_erode, cv::getStructuringElement(1, cv::Size( 2,2) ) );
 
-  cv::imshow("Original", img);
+//  cv::imshow("Original", img);
 //  cv::imshow("Rainbow", img_rainbow);
 //  cv::imshow("Aleatoria", img_bw);
 //  cv::imshow("Gaussian Blur", img_gaussian);
-//  cv::imshow("Canny", img_canny);
+  cv::imshow("Canny", img_canny);
 //  cv::imshow("Canny Dilate", img_canny_dilate); 
 //  cv::imshow("Erode", img_erode); //erosao
   cv::waitKey(0);
