@@ -9,9 +9,11 @@
 int
 main(int argc, char ** argv)
   {
-  cv::VideoCapture cap ( 0 );
+  cv::VideoCapture cap ( 2 );
 
   cv::Mat img;
+
+  argc > 1 ? cap.open(argv[1]) : cap.open(0);
 
   cv::CascadeClassifier placas_cascade;
   placas_cascade.load("./haarcascade_russian_plate_number.xml");
